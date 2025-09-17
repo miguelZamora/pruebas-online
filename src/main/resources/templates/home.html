@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!-- Asegúrate de tener la declaración xmlns:th correcta -->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - Spring Boot</title>
+</head>
+<body>
+    <h1 th:text="${mensaje}">Bienvenido</h1>
+    
+    <nav>
+        <a href="/home">Home</a> |
+        <a href="/about">About</a> |
+        <a href="/contact">Contact</a> |
+        <a href="/api">API</a>
+    </nav>
+</body>
+</html>
