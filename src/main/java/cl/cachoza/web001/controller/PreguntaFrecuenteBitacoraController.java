@@ -73,7 +73,7 @@ public class PreguntaFrecuenteBitacoraController {
         return ResponseEntity.ok(bitacoraActualizada);
     }
 
-    @DeleteMapping("/{id")
+    @DeleteMapping("/{id}")
     public ResponseEntity<Void> eliminar(@PathVariable Long id) {
         service.eliminar(id);
         return ResponseEntity.noContent().build();

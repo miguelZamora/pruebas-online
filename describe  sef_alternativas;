@@ -1,0 +1,103 @@
+describe  sef_alternativas;
+describe  sef_alumnos;
+describe  sef_alumnos_masivo;
+describe  sef_alumnos_sige;
+describe  sef_archivos;
+describe  sef_asignaturas;
+describe  sef_asistente_virtual;
+describe  sef_asistente_virtual_insultos;
+describe  sef_asistente_virtual_preguntas_respuestas;
+describe  sef_contacto_asistente_virtual;
+describe  sef_cursos;
+describe  sef_cursos_alumnos;
+describe  sef_dicta;
+describe  sef_directores_rbd;
+describe  sef_establecimientos;
+describe  sef_establecimientos_masivo;
+describe  sef_grupo_preguntas;
+describe  sef_guardar;
+describe  sef_guardar_tabla;
+describe  sef_inicio_ciclo;
+describe  sef_instrumento_instancia;
+describe  sef_instrumento_instancia_alumnos;
+describe  sef_instrumentos;
+describe  sef_preguntas;
+describe  sef_preguntas_frecuentes;
+describe  sef_preguntas_frecuentes_bitacora;
+describe  sef_profesores_masive;
+describe  sef_registroincidentes;
+describe  sef_responde;
+describe  sef_respuestas;
+describe  sef_respuestas_alumno;
+describe  sef_tabla_b;
+describe  sef_temario_instrumentos;
+describe  sef_texto_asociado;
+describe  sef_texto_asociado_old;
+describe  sef_tipo_pregunta;
+describe  sef_user_estab;
+describe  sef_users_is`;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+describe  sef_alternativas;
+
+Field, Type, Null, Key, Default, Extra
+
+id_alternativa	bigint(20) unsigned	NO	PRI		auto_increment
+pregunta_id	bigint(20)	NO	MUL		
+orden	tinyint(4)	NO			
+alternativa_valor	text	NO			
+
+
+
+describe  sef_alumnos;
+describe  sef_alumnos_masivo;
+describe  sef_alumnos_sige;
+describe  sef_archivos;
+describe  sef_asignaturas;
+describe  sef_asistente_virtual;
+describe  sef_asistente_virtual_insultos;
+describe  sef_asistente_virtual_preguntas_respuestas;
+describe  sef_contacto_asistente_virtual;
+describe  sef_cursos;
+describe  sef_cursos_alumnos;
+describe  sef_dicta;
+describe  sef_directores_rbd;
+describe  sef_establecimientos;
+describe  sef_establecimientos_masivo;
+describe  sef_grupo_preguntas;
+describe  sef_guardar;
+describe  sef_guardar_tabla;
+describe  sef_inicio_ciclo;
+describe  sef_instrumento_instancia;
+describe  sef_instrumento_instancia_alumnos;
+describe  sef_instrumentos;
+describe  sef_preguntas;
+describe  sef_preguntas_frecuentes;
+describe  sef_preguntas_frecuentes_bitacora;
+describe  sef_profesores_masive;
+describe  sef_registroincidentes;
+describe  sef_responde;
+describe  sef_respuestas;
+describe  sef_respuestas_alumno;
+describe  sef_tabla_b;
+describe  sef_temario_instrumentos;
+describe  sef_texto_asociado;
+describe  sef_texto_asociado_old;
+describe  sef_tipo_pregunta;
+describe  sef_user_estab;
+describe  sef_users_is`;
