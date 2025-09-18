@@ -1,4 +1,4 @@
-package cl.cachoza.web001.controller;
+package cl.cachoza.web001.controller.mvc;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,9 +15,11 @@ public class HomeController {
 	@GetMapping(path={"/home","/"})
 	public String home(Model model) {
 		
-		model.addAttribute("mensaje", "Hola mundo en java Thymeleaf");
+		model.addAttribute(     "mensaje", 
+                                "Hola mundo en java Thymeleaf");
         return "home"; 
         // ← Devuelve nombre de vista (Thymeleaf, JSP, etc.)
+        
     }
 	
 	
